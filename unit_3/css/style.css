@@ -1,0 +1,96 @@
+*{
+
+	padding:0;
+	margin:0;
+}
+
+body{
+	/*color: #6B073E;*/
+	color: #0D1D75;
+	background-color: #FFFFFF;
+	font-family: Helvetica, sans-serif;
+}
+
+header{
+	height: 10%;	
+	width: 100%; 
+
+}
+
+header h1{
+	display:inline-block; /*???What does this do?*/
+	text-align: center;
+	/*padding-left: 30%;*/ /*???I want this centered. Had to play wiht percentages. better wway???*/
+	/*padding-bottom: 20px; */ /*??? I tried 50%. i thought it would be 50% of the header which has a heght of 10%???*/
+}
+
+
+
+#logo{
+	width:  5%;
+	height: 8%;
+}
+
+.login_form{
+	color="#FF0000";
+	position: absolute;
+	right:0px;
+	top:0px;
+	
+}
+
+.login_form_submit{
+	background-color: #6B073E;
+	color:#FFFFFF;
+}
+
+
+nav {
+	padding-top: 0px;
+	/*background-color: #6B073E;*/
+	background-color: #D900B0;
+	color: #FFFFFF;
+	text-align: center;
+	height: 30px;
+	font-size: 16pt;
+}
+
+nav a{
+	color: #FFFFFF;
+	padding-right: 35px;
+	text-decoration: none;
+}
+
+#main_section{
+	height: 700px;/*???WHy can't i use percent here???*/
+	background-image: url('../images/sexy_shirts5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+h1{
+	color: #0D1D75;	
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;	
+
+}
+
+#ital{
+	font-style: italic;
+}
+
+.center{
+	text-align: center
+}
+
+ul {
+    text-align: center;
+    list-style-type: square;
+}

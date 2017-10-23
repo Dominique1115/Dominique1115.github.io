@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Allura|Great+Vibes|Lobster+Two');
+
+*{
+
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-size: 16px;/*setting default size for site.  16px will be equal to 1em*/
+	width: 100%;
+
+}
+
+#aboveTheFold{
+	height: 100vh;
+	background-image: url('../images/comp_view3.jpg');
+	background-size: cover;
+}
+
+header{
+	background-color: #606060;
+	color: #FFF;
+	padding: 1.5em;
+	margin-top: 2em;
+}
+
+header p{
+	display: inline;
+	/*margin-right: 65em;*/
+	/*font-family: 'Lobster Two', cursive;*/
+	font-family: 'Abril Fatface', cursive;
+	/*font-family: 'Great Vibes', cursive;
+	font-family: 'Allura', cursive;*/
+
+}
+ 
+ #initials{
+ 	font-family: 'Lobster Two', cursive;
+ 	font-size: 1.6em;
+ }
+
+ #nav_bar{
+ 	margin-left: 50em;
+ 	display: inline;
+ }
+
+ a{
+ 	text-decoration: none;
+ 	color:#FFF;
+ 	padding: 1em;
+ }
+
+
+.main_page{
+	margin: 10em;
+	text-align: center;
+	color: #FFF;
+}
+
+#specialties_section{
+	margin-top: 2em;
+	margin-left: 22em;/*top and bottom margin will be 2em and left to right would be 25em. Could i have centered this more easily???*/
+}
+
+.specialties{
+	width: 12em;
+	display: inline-block;
+	padding-right: 5em;
+	border-width: 2em;
+	border-color: #000;
+}
+
+.specialties img{
+	width: 12em;
+}

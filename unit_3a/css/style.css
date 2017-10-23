@@ -66,11 +66,16 @@ header p{
 .specialties{
 	width: 12em;
 	display: inline-block;
-	padding-right: 5em;
+	margin-right: 5em;
 	border-width: 2em;
 	border-color: #000;
+	border: .15em solid grey;
 }
 
 .specialties img{
 	width: 12em;
+}
+
+.specialties p{
+	margin-top: 1em;
 }

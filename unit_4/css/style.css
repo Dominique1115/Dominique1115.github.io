@@ -1,38 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Allura|Great+Vibes|Lobster+Two');
 
 *{
-
 	padding:0;
 	margin:0;
+	box-sizing:border-box;
 }
 
 body{
 	font-size: 16px;/*setting default size for site.  16px will be equal to 1em*/
-	width: 100%;
-
+	font-family:times, georgia, serif;
+	color:#333;
+	line-height:1.3;
 }
 
 #aboveTheFold{
 	height: 100vh;
 	background-image: url('../images/comp_view3.jpg');
 	background-size: cover;
+	color:#fff;
 }
 
 header{
 	background-color: #606060;
 	color: #FFF;
-	padding: 1.5em;
-	margin-top: 2em;
+	/* padding: 1.5em; */
 }
 
 header p{
 	display: inline;
 	/*margin-right: 65em;*/
-	/*font-family: 'Lobster Two', cursive;*/
+	font-family: 'Lobster Two', cursive;
 	font-family: 'Abril Fatface', cursive;
 	/*font-family: 'Great Vibes', cursive;
 	font-family: 'Allura', cursive;*/
-
 }
  
  #initials{
@@ -41,23 +41,15 @@ header p{
  }
 
  #nav_bar{
- 	margin-left: 50em;
- 	display: inline;
+ 	/* float: right; */
  }
 
- a{
+ nav a{
  	text-decoration: none;
- 	color:#FFF;
+ 	color: #fff;
  	padding: 1em;
+ 	display: inline-block;
  }
-
-
-.main_page{
-	margin: 10em;
-	text-align: center;
-	color: #FFF;
-}
-
 #specialties_section{
 	margin-top: 1.5em;
 	margin-left: 17em;/*top and bottom margin will be 2em and left to right would be 25em. Could i have centered this more easily???*/

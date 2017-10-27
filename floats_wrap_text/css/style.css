@@ -1,0 +1,50 @@
+/**{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 960px;
+}
+
+#first_image{
+	float:left;
+}
+
+#first_image img{
+	width: 150px;
+	height: 150px;
+	
+}
+
+#para{
+	float: left;
+}*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#first_image{
+	width: 175px;
+	float:left;
+}
+
+#second_image{
+	width: 175px;
+	float: right;
+}
+
+P{
+	margin: 1em;
+}

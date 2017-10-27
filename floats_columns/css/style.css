@@ -1,0 +1,29 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+img{
+	width: 175px;
+}
+
+.column{
+	float: left;
+	width: 25%;
+}
+
+#column_wrapper{
+	width:80%;
+	margin: 2em auto;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body{
+	font-size: 16px;/*setting default size for site.  16px will be equal to 1em*/
+	font-family: 'Roboto', sans-serif;
+	color: navy;
+	
+}
+
+#topHeader{
+	background-color: navy;
+	color: #fff;
+	font-size: .6em;
+}
+
+#topHeader a{
+	padding-right: 3em;
+}
+
+
+#topHeader a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+	color: #7B17FF;
+}
+#homescreen{
+	float: right;
+}
+
+
+#mainHeader, nav, #mainStory, #subStoriesSection, #thirdTierStoriesSection{
+	width:90%;
+	margin-left: 4%;
+	/*margin-right: 4%;*/
+	margin-top: .5%;
+}
+
+#mainHeader h1{
+	font-size: 4em;
+	display: inline;
+}
+
+#mainHeader p{
+	display: inline;
+}
+
+#mainHeader img{
+	width: 3em;
+	margin-left: 3em;
+}
+
+#mainHeader i{
+	margin-right: 1em;
+	margin-left: 1.5em;
+	font-size: 2em;
+	color: #7B17FF;
+}
+#searchBox {
+	width: 40%; 
+	height: 100%; 
+	font-style: 4em;
+	padding: 1px;
+	display: inline-block;
+}
+
+nav{
+	padding-top: 1.5em;	
+}
+
+nav a{
+	
+	padding-right: 2em;
+
+}
+
+#mainStory{
+	margin-top: 1.5em;
+	background-color: grey;
+	width: 72%;	
+
+}
+
+#mainStoryText{
+	width: 30%;
+	float:left;
+	text-align: center;
+	margin-left: 5em;
+	margin-top: 5em;
+	
+
+}
+
+#mainStory img{
+	/*margin-top: 1.5em;*/
+	width: 50%;	
+	float: left;
+	
+}
+#mainStory p{
+	float: left;
+	color: navy; 
+
+
+}
+
+.subStories{
+	width: 15.9%;
+	float: left;
+	font-size: .8em;
+}
+
+.thirdTierStories{
+	margin-top: 1em;
+}
+
+
+.thirdTierStories img{
+	float: left;
+}
+
+aside{
+	float: right;
+	margin-right: 10em;
+}
+
+/* ???Why doin't i have to float the <p> left in thierTierStories. 
+Even though I am floating the img left since p is block level it whould try to start on the next
+line. If i do float the p left, the text won't wrap and only display on one line or go 
+to the next line*/
+
+
+
+
+
+
+
+

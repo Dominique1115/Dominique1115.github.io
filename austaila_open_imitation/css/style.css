@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body{
+	font-size: 16px;/*setting default size for site.  16px will be equal to 1em*/
+	font-family: sans-serif;
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+#aboveTheFold{
+	height: 100vh;
+	background-color: #007FC7;
+
+}
+
+#upperHeader{
+	padding-top: 1.3em;
+	margin-bottom: 2.5em;
+
+}
+
+
+#socialMediaLinks{
+	margin-left: .5em;
+	margin-top: 1.5em;
+	float:left;
+}
+
+#mainTitle{
+	margin-left: 40%;
+	margin-right: 30%;
+	float: left;
+	text-align: center;
+}
+
+#mainTitle h1{
+	font-size: 5em;
+	font-weight: bolder;
+	/*font-family: 'Bowlby One', cursive;*/
+}
+
+#time{
+	float:left;
+}
+
+#time img{
+	float:left;
+	margin-top: .5em;
+}
+
+#time p{
+	float: left;
+	font-size: .7em;
+	margin-top: 2.3em;
+	margin-left: .3em;
+}
+
+#navLinks{
+	width: 55%;
+	margin: 0 auto;
+	margin-top: .5em;
+}
+
+#navLinks a{
+	padding-right: 1em;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+/*#mainSectionAboveTheFold{
+	margin-top:2em;
+}*/
+
+#mainSectionAboveTheFold h3{
+	width: 28%;
+	/*margin: 5em auto;*/
+	/*margin-bottom: 1em;*/
+	margin-top: 5em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboveTheFoldImages{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboveTheFoldImage1{
+	width: 350px;
+	height: 425px;
+	margin-right: 1em;
+	float: left;
+	background-image: url('../images/court1.jpg');
+	background-size: cover;
+}
+
+
+
+
+#aboveTheFoldImage2{
+	width: 350px;
+	height: 425px;
+	margin-right: 1em;
+	float: left;
+	background-image: url('../images/hospitality.jpg');
+	background-size: cover;
+}
+#aboveTheFoldImage3{
+	width: 350px;
+	height: 425px;
+	margin-right: 1em;
+	float: left;
+	background-image: url('../images/travel.jpg');
+	background-size: cover;
+}
+
+#aboveTheFoldImage1 p{
+	font-size: 3em;
+	margin: 3.5em 2em;
+}
+
+#aboveTheFoldImage2 p{
+	font-size: 3em;
+	margin: 3.5em 2em;
+}
+
+#aboveTheFoldImage3 p{
+	font-size: 3em;
+	margin: 3.5em 2em;
+}
+
+
+#aboveTheFoldImage1:hover p{
+	transition: margin-top 1s ease;
+	margin-top: 1em;
+}
+
+#aboveTheFoldImage2:hover p{
+	transition: margin-top 1s ease;
+	margin-top: 1em;
+}
+
+#aboveTheFoldImage3:hover p{
+	transition: margin-top 1s ease;
+	margin-top: 1em;
+}
+#registerForNotifications{
+	padding-top:3em;
+	padding-bottom:3em;
+	color: #000;
+	text-align: center;
+	background-color: #D1D1D1;
+}
+
+.button {
+    background-color: #007FC7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#latestNewsMainDiv {
+	width:80%;
+	margin: 1em auto;
+}
+
+#latestNewMainImage{
+	float:left;
+	margin-right: 1em;
+}
+
+#latestNewsMainDiv p{
+	color: #000;
+}
+
+#latestNewsMainText{
+	color:#000;
+
+}
+
+#latestNewsSubStories{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.latestNewsSubStory{
+	color: #000;
+	margin-right:2%;
+	float: left;
+}
+
+.latestNewsSubStory p{
+	display: block;
+	width: 22em;
+}
+.latestNewsSubStory img{
+	width:22em;
+	height:300px;
+}
+
+#latestNewsSubStories_row2{
+	width:80%;
+	margin-top: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.latestNewsSubStory_row2{
+	color: #000;
+	margin-right:2%;
+	float: left;
+}
+
+.latestNewsSubStory_row2 p{
+	display: block;
+	width: 22em;
+}
+.latestNewsSubStory_row2 img{
+	width:22em;
+	height:300px;
+}
+
+#footer{
+	color:#000;
+}
+#footer p{
+	display: inline;
+	margin-left: : auto;
+	margin-right: auto;
+}
+

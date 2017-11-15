@@ -59,7 +59,16 @@ header a{
     width: 8em;
     display: inline;
     margin-left: 7em;
+    position: relative; /* IS THIS NECESSARY? for animations to work? */
+    animation-name: chase;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
     
+}
+
+@keyframes chase{
+    0%{ top: -100px; }
+    100%{ top: 2px; }
 }
 
 /*#header_content img{
@@ -100,6 +109,14 @@ header a{
     font-size: .75em;
     width: 12em;
     padding-bottom: 1em;
+    animation-name: login;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes login{
+    0%{ opacity: 0; }
+    100% {opacity: 1;}
 }
 
 #login_form input{

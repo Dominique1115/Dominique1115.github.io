@@ -1,0 +1,884 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+	/*background-image: url('../images/header_background.png');*/
+    background-image: url('../images/header_background2.png');
+    background-size: cover;
+    color: #fff;
+    font-size: 2em;
+}
+
+header a{
+    color: #fff;
+    font-size: .5em;
+    vertical-align: top;
+}
+
+#header_content{
+    width:90%;
+    margin-left: 3.5em;
+    margin-right:  1em;
+    padding-top: .5em;
+}
+
+#header_content i{
+    float: left;
+    margin-right: .5em;
+}
+
+#header_content p{
+    font-size: .6em;
+    margin-top: .3em;
+    float: left;
+}
+
+#header_content h2{
+    width: 8em;
+    display: inline;
+    margin-left: 7em;
+    
+}
+
+/*#header_content img{
+    margin-left: 12em;
+    margin-right: 7em;
+}
+*/
+#headerLinks{
+    float: right;
+
+}
+
+#header_left{
+    margin-left: 3.5em;
+    margin-right: 1em;
+    float: left;
+     margin-top:2em;
+}
+
+#header_left img{
+    float: left;
+}
+
+#mainAdvertisement{
+    float: left;
+    margin-left: .65em;
+}
+
+#login_form{
+    margin-right: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    float: right;
+    background-color: #FFF;
+    color: grey;
+    border-radius: 1.5625em;
+    border: .03125em solid #fff;
+    font-size: .75em;
+    width: 12em;
+    padding-bottom: 1em;
+}
+
+#login_form input{
+    display: block;
+    margin-bottom: .5em;
+}
+
+
+
+#login_form a{
+    display: block;
+    color:blue;
+}
+
+
+#formItems{
+    margin-top: .7em;
+    margin-left: .6em;
+
+}
+
+#formItems p{
+    margin-bottom: .4em;
+}
+
+#remember input{
+    float: left;
+    /*width: 25px;*/
+    width: 1.5625em;
+}
+
+#remember p{
+    font-size: .5em;
+}
+
+.button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #007FC7; 
+    border: none;
+    color: white;
+    /*padding: 15px 64px;*/
+    padding: .9375em 4em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  /*IF I CHANGE THIS TO 1EM is BLOWS OUT THE BUTTON ????*/
+    /*font-size: 1em;*/
+    border-radius: .9375em;
+    margin-left: 2.5em;
+}
+
+main p{
+    width: 21em;
+    margin-left: auto;
+    margin-right: auto;
+    color: grey;
+    font-size: 1.8em;
+}
+
+#back_icon{
+    float: left;
+    margin-right: 11em;
+}
+
+#next_icon{
+    float: right;
+}
+
+#mainImages{
+    width: 64.375em;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.imageAndText{
+    float: left;    
+}
+
+.imageAndText a{
+    /*width: 3em;*/
+    font-size: .8em;
+    /*margin-left: 2em;
+    margin-right: auto;*/
+
+}
+
+
+.imageContainer {
+    width: 6.875em; 
+    height: 3.875em;
+    overflow: hidden;
+    /*float: left;*/
+    margin-left: 0em;
+    margin-right: 6em;
+}
+
+
+.imageContainer img {
+     height: auto;
+     width: 6.875em;
+}
+
+#module2Items{
+    margin-bottom: 2em;
+
+}
+
+#module2{
+    width: 78em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.module2Item{
+    float: left;
+    margin-right: 1em;
+    width: 25em;
+}
+
+.module2Image img{
+    width: 25em;
+    height: 11.5625em;
+}
+
+.module2Item a{
+    background-color: #007FC7; 
+    color: #fff;
+    padding: .3em;
+}
+
+#module2Items hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#module3{
+    width: 78em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.module3Text{
+    margin-top: 2em;
+    float: left;
+    /*width: 677px;*/
+    width: 42.3125em;
+}
+
+.module3Image img{
+    float: right;   
+    margin-top: 2em;
+    /*width: 454px;
+    height: 285px;*/
+    width: 28.375em;
+    height: 17.8125em;
+}
+
+.module3Text a{
+    background-color: green; 
+    color: #fff;
+    padding: .65em;
+    font-size: 1.5em;
+}
+
+#module4{
+    margin-top: 2em;
+    background-color: beige;
+}
+#module4Inner{
+    width:78em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#module4Inner h1{
+    float: left;
+}
+
+#socialMediaLinks{
+    margin-top: 1.5em;
+    float: right;
+}
+
+#headline{
+    margin-bottom: 2em;
+}
+
+.module4ImageAndText{
+    width: 18.625em;
+    height: 14.875;
+    float: left;
+}
+
+.module4ImageAndText img{
+    width:18.125em;
+    height: 10.375em;
+}
+
+.storiesRow{
+    width: 74.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#module5Inner{
+    width: 78em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+
+}
+
+#socialMediaLinksBottom{
+    width: 16.25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#module6{
+    background-color: #D1D0CE;
+}
+
+#module6Inner{
+    width: 600px; /*Can't covert to 37.5em ????*/
+    /*width: 37.5em;*/
+    font-size: .7em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#module6Inner p{
+    float: left;    
+    margin-right: .8em;
+}
+
+footer{
+    margin-top: 1em;
+}
+#footerInner{
+    text-align: center;
+    font-size: .6em;
+}
+
+#footerLinks{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1240px) {
+
+    header{
+    /*background-image: url('../images/header_background.png');*/
+    background-image: url('../images/header_background2.png');
+    background-size: cover;
+    color: #fff;
+    font-size: 1.5em;
+    }
+
+    header a{
+        color: #fff;
+        font-size: .4em;
+        vertical-align: top;
+    }
+
+    #header_content{
+        width:80%;
+        margin-left: 3.5em;
+        margin-right:  1em;
+        padding-top: .5em;
+    }
+
+    #header_content i{
+        float: left;
+        margin-right: .5em;
+    }
+
+    #header_content p{
+        font-size: .6em;
+        margin-top: .3em;
+        float: left;
+    }
+
+    #header_content h2{
+        width: 8em;
+        display: inline;
+        margin-left: 7em;
+        
+    }
+
+    #headerLinks{
+        float: right;
+
+    }
+
+    #header_left{
+        margin-left: 3.5em;
+        margin-right: 1em;
+        float: left;
+         margin-top:2em;
+    }
+
+    #header_left img{
+        float: left;
+    }
+
+    #mainAdvertisement{
+        float: left;
+        margin-left: .65em;
+    }
+
+    #login_form{
+        margin-right: 7em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        float: right;
+        background-color: #FFF;
+        color: grey;
+        border-radius: 1.5625em;
+        border: .03125em solid #fff;
+        font-size: .65em;
+        width: 12em;
+        padding-bottom: .5em;
+    }
+
+    #login_form input{
+        display: block;
+        margin-bottom: .5em;
+    }
+
+
+
+    #login_form a{
+        display: block;
+        color:blue;
+    }
+
+
+    #formItems{
+        margin-top: .7em;
+        margin-left: .6em;
+
+    }
+
+    #formItems p{
+        margin-bottom: .4em;
+    }
+
+    #remember input{
+        float: left;
+        /*width: 25px;*/
+        width: 1.5625em;
+    }
+
+    #remember p{
+        font-size: .5em;
+    }
+
+    .button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: #007FC7; 
+        border: none;
+        color: white;
+        /*padding: 15px 64px;*/
+        padding: .8375em 2em;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;  /*IF I CHANGE THIS TO 1EM is BLOWS OUT THE BUTTON ????*/
+        /*font-size: 1em;*/
+        border-radius: .9375em;
+        margin-left: 2.5em;
+    }
+
+    /*Main section*/
+    main{
+        display: none;
+    }
+
+    /*END OF MAIN SECTION*/ 
+
+    #module2Items{
+    margin-bottom: 1em;
+
+    }
+
+    #module2{
+        width: 70em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .module2Item{
+        float: left;
+        margin-right: 1em;
+        width: 22em;
+    }
+
+    .module2Image img{
+        width: 22em;
+        height: auto;
+    }
+
+    .module2Item a{
+        background-color: #007FC7; 
+        color: #fff;
+        padding: .3em;
+    }
+
+    #module2Items hr{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    #module3{
+    width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .module3Text{
+        margin-top: 2em;
+        float: left;
+        /*width: 42.3125em;*/
+        width: 37.3125em;
+    }
+
+    .module3Image img{
+        float: right;   
+        margin-top: 2em;
+        /*width: 454px;
+        height: 285px;*/
+        width: 25.375em;
+        height: 17.8125em;
+    }
+
+    .module3Text a{
+        background-color: green; 
+        color: #fff;
+        padding: .65em;
+        font-size: 1.5em;
+    }
+}/* end 1240 media query*/
+
+@media screen and (max-width: 960px) {
+
+    header{
+    /*background-image: url('../images/header_background.png');*/
+    background-image: url('../images/header_background2.png');
+    background-size: cover;
+    color: #fff;
+    font-size: 1em;
+    }
+
+    header a{
+        color: #fff;
+        font-size: .4em;
+        vertical-align: top;
+    }
+
+    #header_content{
+        width:80%;
+        margin-left: 3.5em;
+        margin-right:  1em;
+        padding-top: .5em;
+    }
+
+    #header_content i{
+        float: left;
+        margin-right: .5em;
+    }
+
+    #header_content p{
+        font-size: .6em;
+        margin-top: .3em;
+        float: left;
+    }
+
+    #header_content h2{
+        width: 8em;
+        display: inline;
+        margin-left: 7em;
+        
+    }
+
+    #headerLinks{
+        float: right;
+
+    }
+
+    #header_left{
+        margin-left: 3.5em;
+        margin-right: 1em;
+        float: left;
+         margin-top:2em;
+    }
+
+    #header_left img{
+        float: left;
+    }
+
+    #mainAdvertisement{
+        float: left;
+        margin-left: .65em;
+    }
+
+    #login_form{
+        margin-right: 7em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        float: right;
+        background-color: #FFF;
+        color: grey;
+        border-radius: 1.5625em;
+        border: .03125em solid #fff;
+        font-size: .65em;
+        width: 17em;
+        padding-bottom: .5em;
+    }
+
+    #login_form input{
+        display: block;
+        margin-bottom: .5em;
+    }
+
+
+
+    #login_form a{
+        display: block;
+        color:blue;
+    }
+
+
+    #formItems{
+        margin-top: .7em;
+        margin-left: .6em;
+
+    }
+
+    #formItems p{
+        margin-bottom: .4em;
+    }
+
+    #remember input{
+        float: left;
+        /*width: 25px;*/
+        width: 1.5625em;
+    }
+
+    #remember p{
+        font-size: .5em;
+    }
+
+    .button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: #007FC7; 
+        border: none;
+        color: white;
+        /*padding: 15px 64px;*/
+        padding: .8375em 2em;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;  /*IF I CHANGE THIS TO 1EM is BLOWS OUT THE BUTTON ????*/
+        /*font-size: 1em;*/
+        border-radius: .9375em;
+        margin-left: 1em;
+    }
+
+    /*Main section*/
+    main{
+        display: none;
+    }
+
+    /*END OF MAIN SECTION*/ 
+
+    #module2Items{
+    margin-bottom: 1em;
+
+    }
+
+    #module2{
+        width: 70em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .module2Item{
+        float: left;
+        margin-right: 1em;
+        width: 19em;
+    }
+
+    .module2Image img{
+        width: 19em;
+        height: auto;
+    }
+
+    .module2Item a{
+        background-color: #007FC7; 
+        color: #fff;
+        padding: .3em;
+    }
+
+    #module2Items hr{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    #module3{
+    width: 45em;
+    margin-left: 1em;
+    /*margin-right: auto;*/
+    }
+
+    .module3Text{
+        margin-top: 2em;
+        float: left;
+        /*width: 42.3125em;*/
+        width: 30.3125em;
+    }
+
+    .module3Image img{
+        float: right;   
+        margin-top: 2em;
+        /*width: 454px;
+        height: 285px;*/
+        width: 14.375em;
+        height: auto;
+    }
+
+    .module3Text a{
+        background-color: green; 
+        color: #fff;
+        padding: .65em;
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 795px) {
+
+    #header_left{
+        display: none;
+    }
+
+    #login_form{
+        margin-right: 12em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        float: right;
+        background-color: #FFF;
+        color: grey;
+        border-radius: 1.5625em;
+        border: .03125em solid #fff;
+        font-size: .65em;
+        width: 45em;
+        padding-bottom: .5em;
+    }
+
+    #login_form input{
+        display: inline;
+        margin-bottom: .5em;
+    }
+
+
+
+    #login_form a{
+        display: block;
+        color:blue;
+    }
+
+
+    #formItems{
+        margin-top: .7em;
+        margin-left: .6em;
+
+    }
+
+    #formItems p{
+        margin-bottom: .4em;
+    }
+
+
+    #remember input{
+        float: left;
+        /*width: 25px;*/
+        width: 1.5625em;
+    }
+
+    #remember p{
+        font-size: .5em;
+    }
+
+    .button {
+        /*margin-top: 1em;*/
+        margin-bottom: 1em;
+        background-color: #007FC7; 
+        border: none;
+        color: white;
+        /*padding: 15px 64px;*/
+        padding: .8375em 2em;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;  /*IF I CHANGE THIS TO 1EM is BLOWS OUT THE BUTTON ????*/
+        /*font-size: 1em;*/
+        border-radius: .8375em;
+        /*margin-left: 1em;*/
+        
+    }
+
+    /*Main section*/
+    main{
+        display: none;
+    }
+
+    /*END OF MAIN SECTION*/ 
+
+    #module2Items{
+    margin-bottom: 1em;
+
+    }
+
+    #module2{
+        width: 50em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .module2Item{
+        float: left;
+        margin-left: 9em;
+        width: 30em;
+    }
+
+    .module2Image img{
+        width: 30em;
+        height: auto;
+    }
+
+    .module2Item a{
+        background-color: #007FC7; 
+        color: #fff;
+        padding: .3em;
+    }
+
+    #module2Items hr{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    #module3{
+    width: 45em;
+    margin-left: 1em;
+    /*margin-right: auto;*/
+    }
+
+    .module3Text{
+        margin-top: 2em;
+        float: left;
+        /*width: 42.3125em;*/
+        width: 30.3125em;
+    }
+
+    .module3Image img{
+        float: right;   
+        margin-top: 2em;
+        /*width: 454px;
+        height: 285px;*/
+        width: 14.375em;
+        height: auto;
+    }
+
+    .module3Text a{
+        background-color: green; 
+        color: #fff;
+        padding: .65em;
+        font-size: 1.5em;
+    }
+}

@@ -22,3 +22,54 @@ should add to all css:
     clear: both;
     height: 0;
 }
+
+
+IMAGES 
+These images are the same width but different heights.
+If i want them to appear as the same size but still maintain its aspect raito, i can creatte a container with a height and width.  Set overflow property to hidden (which may cause cropping)
+BUT I THINK THE PICTURE HAS TO BE BIGGER THAN THE CONTAINER FOR IT NOT TO DISTORT
+also, if you set a size that is smaller that the image in your html/css, the broswer will automatically maintain its aspect raitio. So if you make the size smaller on the width (for example) and the browser maintainst he aspect ratio, which happens to make the height smaller than the container size you created on the height, it will be wrong.
+
+
+
+<div id="mainImages" class="clearfix">
+			<div class="imageContainer">
+				<a href="#"> <img src="images/piggy_bank.jpg"></a>
+			</div>
+			<div class="imageContainer">
+				<a href="#"> <img src="images/checking.jpeg"></a>
+			</div>
+			<div class="imageContainer">
+				<a href="#"> <img  src="images/credit_card.jpeg"></a>
+			</div>
+			<div class="imageContainer">
+				<a href="#"> <img src="images/home.jpeg"></a>
+			</div>
+			<div class="imageContainer"
+				<a href="#"> <img src="images/car.jpeg"></a>
+			</div>
+		</div>
+	</main>
+
+.imageContainer {
+ height: 95px;
+ width: 200px;
+ overflow: hidden;
+ float: left;
+}
+
+.imageContainer img {
+ height: auto;
+ width: 200px;
+}
+
+ACTUALLY I THINK ALL OF THE ABOVE IS WRONG.
+THe trick is to do the following:
+1) figure out the exact size in pixels you need the image to be on your website example 400*185
+2) multiply the desired width by various factors and the width by the same factors so you know what your options are for cropping
+example
+width: 400*12=4800 or 400*7 = 2800 or 400 *10= 4000
+height: 185*12= 2220 or 185*7=1295 or 185*10=1850
+so this means some of my options for cropping is to have a height and width of
+4800x2220 or 2800x1295 or 4000x1850
+3) open the image in Preview and crop to one of those dimensions.  The height and width of the original image must be larger  or equalthan the height and width of cropped options you select

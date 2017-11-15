@@ -1,0 +1,45 @@
+/*------------------------------------------------------------------
+[Custom Theme Stylesheet]
+
+Project:	Law Firm - Onepage Html Responsive Template
+Version:	1.1
+Primary use:	Law Firm - Onepage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+/*add your style css here*/
+
+
+
+.logo1_container {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding:15px;
+}
+.cjb-logo1{
+    width: 50px;
+    height: 30px;
+    color:#fff;
+    font-size: 2em;
+    float: left;
+    font-weight: 800;
+    
+}
+.cjb-logo-part2{
+    padding-left: 60px;
+    color:#fff;
+    font-weight: 600;
+    text-align: left;
+    /*height: 50px;
+    width:65%;*/
+    
+}
+.cjb-logo-part3{
+    text-align: left;
+    padding-left: 60px;
+    color:#fff;
+    font-weight: 900;
+    font-size: 12pt;
+    font-style:italic;
+    
+}

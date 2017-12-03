@@ -1,6 +1,6 @@
 namecheap login info
 cjeanbaptiste
-Nadiamk1
+Sophia0001* (Changed from Nadiamk1 on Nov 26, 2017)
 
 A2hosting
 chantal_jeanbaptiste@yahoo.com
@@ -9,7 +9,7 @@ Nadiamk1
 
 emails:
 chantal@dc-legal.com/Nadiamk1
-admin@dc-legal.com/Nadiamk1
+admin@dc-legal.co:qm/Nadiamk1
 dominique@dc-legal.com/Nadiamk1
 daryl@dc-legal.com/Nadiamk1
 
@@ -23,7 +23,8 @@ Site Administration (cPanel) URL http://www.dc-legal.com/cpanel
 http://wwwss36.a2hosting.com/cpanel
 Nameservers ns1.a2hosting.com (104.255.198.1)
 ns2.a2hosting.com (192.190.94.1)
-ns3.a2hosting.com (104.255.198.2)
+:q
+I:qns3.a2hosting.com (104.255.198.2)
 ns4.a2hosting.com (192.190.94.2)
 SSH Port 7822
 Hostname

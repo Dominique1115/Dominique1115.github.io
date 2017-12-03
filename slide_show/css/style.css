@@ -1,0 +1,47 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+	text-align: center;
+}
+
+#module1{
+	width: 90%;
+	margin: auto;
+}
+#mainImage{
+	height: 600px;
+    animation-name: imageFade;
+    animation-duration: 3s;
+    /*animation-timing-function: ease-in-out;*/
+}
+
+@keyframes imageFade{
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}

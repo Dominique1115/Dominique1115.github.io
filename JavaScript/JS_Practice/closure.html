@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CLOSURE</title>
+	<script>
+		function makeCounter(){
+			var count= 0; //considered a free variable
+
+			function counter(){
+				count = count + 1;
+				return count;
+			}
+			return counter;//returns a REFERENCE.  This will return a reference and the free 
+			//variable, count is updated and it will be remembersed
+		}
+
+		var doCount = makeCounter();
+		console.log(doCount());
+		console.log(doCount());
+		console.log(doCount());
+		console.log(doCount());
+
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

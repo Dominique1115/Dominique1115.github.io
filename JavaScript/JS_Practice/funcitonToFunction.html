@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function Call to a function</title>
+	<script>
+		function processPassengers(passengers, testFunction) {
+			for (var i=0; i< passengers.length; i++) {
+				if (testFunction(passengers[i])){
+					return false;
+				}
+			}
+			return true;
+		}
+
+		function servePassengers(passengers){
+			for (var i =0; i< passengers.length; i++){
+				serveCustomer(passengers[i]);
+			}
+		}
+
+		function checkNoFlyList(passenger) {
+			return (passenger.name === "Dr. Evel");
+		}
+
+		function checkNotPaid(passenger) {
+			return(!passenger.paid);
+		}
+
+		function printPassenger(passenger){
+			var message = passenger.name;
+			if (passenger.paid){
+				message = message + "has paid";
+			}else {
+				message = message + "has not paid";
+			}
+			console.log(message);
+			return false;
+		}
+
+		function serveCustomer(passenger){
+			var getDrinkOrderFunction = createDrinkOrder(passenger);
+			getDrinkOrderFunction()
+			//get dinner order
+			//pick up trash
+		}
+
+		function createDrinkOrder(passenger){
+			var orderFunction;
+			if(passenger.ticket === "firstclass"){
+				orderFunction = function(){
+					alert("Would you like a cocktail or wine?");
+			}
+			}else{
+				orderFunction = function(){
+					alert("Cola or water");
+				}
+			}
+			return orderFunction;
+		}
+
+
+		var passengers = [ {name: "jane Doloop", paid: true, ticket:"coach" },
+						{name: "Dr Evel", paid: true, ticket:"firstclass" },
+						{name: "Sue Property", paid: false, ticket:"firstclass"},
+						{name: "John Funcall", paid: true, ticket:"coach" },
+		];
+
+
+		var allCanFly = processPassengers(passengers, checkNoFlyList);
+		if(!allCanFly) { 
+			console.log("The plane cant take off.  Passenger on the no-fly list.");
+		}
+
+		var allPaid = processPassengers(passengers, checkNotPaid);
+		if (!allPaid){
+			console.log("the plane can't take off. Not every one has paid");
+		}
+		
+		processPassengers(passengers, printPassenger);
+	
+		
+		servePassengers(passengers);
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -41,4 +41,4 @@ SCP the app files over to the app directory
 scp -rP 7822 * brookvil@a2ss40.a2hosting.com:/home/brookvil/public_html
 
 carousel images size
-940x380
+1920x966

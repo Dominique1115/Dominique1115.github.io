@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passing Functions</title>
+	<script>
+		var houses = [
+			
+			{name:"Sophia", houseSize:3000, updated: true, location:"mountain"},
+			{name:"Natalia", houseSize:3000, updated: true, location:"lake"},
+			{name:"Edward", houseSize:4000, updated: true, location:"mountain"},
+			{name:"Nadia", houseSize:2500, updated: true, location:"mountain"},
+			{name:"Dominique", houseSize:1000, updated: true, location:"mountain"},
+		];
+
+		fun("HELLO");
+
+
+		function checkHouses(houses,theFunction){
+			for (i=0; i<houses.length; i++){
+				if(theFunction(houses[i])  == false){
+					return false;
+				}
+			}
+			return true;
+		}
+
+		function goodSize(house){
+			return house.houseSize > 1200;
+		}
+
+		function isUpdated(house){
+			return house.updated;
+		}
+
+ 		function isMountainSide(house){
+ 			if (!(house.location ==="mountain")){
+				return false;
+			}
+ 		}
+
+		var allHousesGoodSize= checkHouses(houses, goodSize);
+		if (allHousesGoodSize){
+			console.log("ALL  HOUSES ARE GREAT SIZES!");
+		}else{
+			console.log("SOMEONE NEEDS A BIGGER HOUSE!");
+		}
+
+		var allHousesMountainSide=true;
+	 	allHousesMountainSide = checkHouses(houses, isMountainSide);
+		if (allHousesMountainSide){
+			console.log("ALL Houses are on the mountain size");
+		}else{
+			console.log("Not all houses are on the mountain size");
+		}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+https://www.html5rocks.com/en/tutorials/responsive/picture-element/
+https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+
+
+https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_2?s=books&ie=UTF8&qid=1512442772&sr=1-2&keywords=JavaScript+and+jQuery+Set
+
+https://www.amazon.com/Smarter-JavaScript-tech-assisted-approach-requires/dp/1497408180/ref=sr_1_2?s=books&ie=UTF8&qid=1512442813&sr=1-2&keywords=smarter+way+to+learn+javascript
+
+
+https://javascript.info/
+
+https://momentjs.com/
+
+http://www.unheap.com/
+
+https://hammerformac.com/ (Include menus)
+
+
+Images issue:
+if i download an image that is big...4500*3500.  I want it to be a background image and appear on my page with a width of 100% but I also want to see the whole picture.
+
+The first thing i did was resize the image (proportionally).
+In my css I added it as a background image and background-size cover
+
+#module1{
+    background-image: url('../images/flowerImage.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+This was not good for me because it cut off the bottom of the image.
+
+I then kept making the image smaller and smaller proportionally.  And while the smaller the image the more of it I see, i am looking for a better to do this.
+
+I've gotten comfortable with cropping and resizing images, but I don't know what the right size or calculations should be so that it can be shown crisp on big and small monitors with 100% width.
+
+

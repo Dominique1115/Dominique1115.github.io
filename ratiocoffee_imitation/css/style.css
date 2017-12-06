@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #2C2E2F;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    margin-bottom: 1em;
+
+}
+
+header p{
+    margin:.3em 0;
+    font-size:2em;
+    letter-spacing: .3em;
+    float: left;
+
+}
+
+#header_icons{
+    float: right;
+}
+
+nav{
+    float:left;
+    width: 20em;
+    margin-left:28%; /*???? How can I center this nav bar?*/
+    margin-top: 1.25em;
+}
+
+nav a {
+    color: grey;
+    padding: .2em;
+}
+
+#header_icons{
+    margin-right: 1em;
+}
+
+#module1{
+    background-image: url('../images/flowerImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+#module1 p{
+    color: #fff;
+    font-size: 3em;
+    padding-top: 10em;
+
+}
+
+#imagesModule2{
+    width: 90%;
+    margin: auto;
+}
+#module2 img{
+    width: 24%;
+
+}

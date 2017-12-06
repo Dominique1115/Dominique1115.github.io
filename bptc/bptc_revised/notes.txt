@@ -42,3 +42,16 @@ scp -rP 7822 * brookvil@a2ss40.a2hosting.com:/home/brookvil/public_html
 
 carousel images size
 1920x966
+
+
+mailchimp
+bptc@brookvilleparktennis.org
+user: brookvilleparktennis
+pass: Brosie132*
+
+webmail
+http://brookvilletennis.org/webmail
+bptc@brookvilletennis.org
+brosie132
+First Name: Eric
+Last Name: Ambrose

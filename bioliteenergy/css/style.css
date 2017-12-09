@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+#aboveTheFold{
+	height: 100vh;
+}
+
+#aboveTheFoldModule1{
+	background-color: #d3d3d3;
+	text-align: center;
+	font-size: .8em;
+	font-weight: bold;
+	/*border-bottom: .5px;*/
+	border-width: 0px 0px .3px 0px;
+	border-style: solid;
+	border-color: grey;
+}
+
+#aboveTheFoldModule1 p{
+	display: inline;
+}
+
+#aboveTheFoldModule1 button{
+	background-color: orange;
+	font-size: 1em;
+	border-radius: 5px;
+	color: #fff;
+	padding: .5em;
+
+}
+
+#aboveTheFoldModule2{
+	background-color: #d3d3d3;
+	text-align: center;
+	font-size: .8em;
+	font-weight: bold;
+	padding: .7em;
+}
+#aboveTheFoldModule2 a{
+	color: grey;
+	padding: .5em;
+
+}
+
+#specials{
+	float: left;
+	margin-left: 4.5em;
+}
+
+#accountInfo{
+	float:right;
+	margin-right: 6em;
+}
+
+nav{
+	background-color: #000;
+	text-align: center;
+	padding: 2em;
+}
+
+nav a{
+	color: #fff;
+	font-size: 1.5em;
+	padding: .7em;
+}
+
+#aboveTheFoldModule3{
+	background-image: url("../images/mainImage2.jpg");
+	/*background-image: url("../images/module3Image.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+#mainText{
+	padding-top: 13em;
+	line-height: 3em;
+	padding-bottom: 19em;
+}			
+
+#mainText button{
+	background-color: orange;
+	color: #fff;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+#belowTheFold{
+	margin-top: 2em;
+}
+
+
+#belowTheFoldModule1{
+	text-align: center;
+	color: green;
+	margin-bottom: 2em;
+}
+
+#belowTheFoldModule2{
+	width: 90%;
+	margin: auto;
+}
+
+footer{
+	margin-top: 2em;
+	padding-top: 2em;
+	background-color: #000;
+	color: #fff;
+
+}
+
+footer a{
+	color: #fff; 
+	display: block;
+
+}
+
+#footerContainer{
+	width:65%;
+	margin: auto;
+	line-height: 1.7em;
+}
+
+#footerProducts{
+	float: left;
+	margin-right: 4em;
+}
+
+#footerAbout{
+	float: left;
+	margin-right: 4em;
+}
+
+
+#footerSupport{
+	float: left;
+	margin-right: 4em;
+}
+
+#footerPrograms{
+	float: left;
+	margin-right: 4em;
+}
+
+
+#footerPartners{
+	float: left;
+}
+
+.footerHeaderLink{
+	font-size: 1.3em;
+	line-height: 2em;
+	font-weight: bold;
+}

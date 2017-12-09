@@ -39,6 +39,11 @@ header p{
 
 }
 
+header a:hover{
+    color: red;
+
+}
+
 #header_icons{
     float: right;
 }
@@ -81,3 +86,70 @@ nav a {
     width: 24%;
 
 }
+
+#module3 {
+    background-image: url('../images/module3Image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+}
+
+#module3 button{
+    margin-top: 10em;
+    margin-left: 2em;   
+    padding: .3em;
+    font-size: 2em;
+    background-color: grey;
+    color:#fff;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 1.5em;
+    background-color: #fff;
+}
+
+#footerContainer{
+    width:90%;
+    margin: auto;
+}
+
+#subscribe{
+    font-size: .8em;
+    float: left;
+    margin-right: 45em;
+    color: grey;
+}
+
+#miscLinks{
+    float: left;
+    color: grey;
+    font-size: .7em;
+}
+
+
+#miscLinks a{
+    color: grey;
+}
+
+#miscLinksColumn1{
+    float:left;
+    margin-right: 2em;    
+}
+
+#miscLinksColumn2{
+    float: left;
+}
+
+#miscLinksColumn1 a{
+    display: block;
+}
+
+#miscLinksColumn2 a{
+    display: block;
+}
+
+#socialMediaLinks{
+    float:right;
+}
+

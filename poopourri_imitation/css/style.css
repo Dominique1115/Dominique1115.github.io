@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+#headerModule1{
+    margin-top: 1em;    
+    margin-bottom: 1em;
+
+}
+
+#promotion1{
+    color: red;
+    /*float: left;*/
+    
+    position: fixed;
+    top: 2em;
+    left: 10em;
+    /*margin-left: 10em;
+    margin-right: 13em;*/
+}
+
+
+#imgSize{
+    width: 115px;
+    /*float: left;*/
+    position: fixed;
+    top: 1em;
+    left: 50em;
+    /*margin-right: 1em;
+    margin-left: 8.5em;*/
+}
+
+
+#search{
+    /*float: left;*/
+    position: fixed;
+    top: 2em;
+    left: 940px;
+}
+
+#headerModule1 button{
+    position: fixed;
+    top: 2em;
+    left: 1055px;
+}
+
+#cartText{
+    /*float:left;*/
+    /*margin-left: 4em;*/
+    position: fixed;
+    top: 1.3em;
+    left: 1100px;
+
+}
+
+#cart{
+    /*float:left;*/
+    /*margin-left: 4em;*/
+    position: fixed;
+    top: 1.3em;
+    left: 1200px;
+
+}
+#headerModule2{
+    padding: 2.1em;
+    background-image: url("../images/headerBackground.png");
+    background-size: cover;
+}
+
+#headerModule2 img{
+    position: fixed;
+    top: 4em;
+    left: 0;
+    width: 306px;
+    /*margin-right: 30em;*/
+}
+
+nav{
+    margin-left: 58%;
+}
+
+#headerModule2{
+    position: fixed;
+    top: 5em;
+    width: 100%;
+}
+
+#headerModule2 a{
+    color: #fff;
+    padding: 1.5em;
+}
+
+#module1{
+    margin-top: 10em;
+    background-image: url("../images/module1background.png");
+    background-size: cover;
+}
+
+#gifting{
+    float: left;
+}
+
+#giftingText1{
+    font-size: 6em;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-bottom: .2em;
+}
+
+.giftingText2{
+    font-size: 3em;
+    margin-left: 4em;
+    
+}
+
+#module1 img{
+    width: 270px;
+    float: right;
+    margin-right: 10em;
+}
+
+
+#module2Text{
+    width: 50em;
+    float: left;
+    margin-left: 3em;
+}
+
+#module2Image{
+    float: right;
+    margin-right: 8em;
+}
+
+.module2guarantee{
+    color: red;
+    font-size: 5em;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bold;
+}
+
+.module2TextStyle{
+    margin-left: 2em;
+    font-size: 2em;
+}
+
+.module2TextStyle2{
+    font-size: 1.25em;
+    margin-left: 2em;
+}
+
+#module2 button{
+    margin-top: 1em;
+    padding: 1.3em;
+    background-color: red;
+    color: #fff;
+    margin-left: 10em;
+    border-radius: 8px;
+}
+
+#module3{
+    width: 95%;
+    margin: auto;
+}
+#module3 h1, #module4 h1{
+    text-align: center;
+}
+
+.imageAndText{
+    float: left;
+    text-align: center;
+}
+
+#module4{
+    margin-top: 1.5em;
+}
+
+footer{
+    background-image: url("../images/footerBackground.png");
+    background-size: cover;
+    color: #fff;
+
+}
+
+#footerContainer{
+    width: 50%; 
+    margin:auto;
+}
+
+footer a{
+    display:block;
+    color: #fff;
+}
+
+.footerHeaderLink{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#footerAbout{
+    float:left;
+    margin: 1.5em;
+    line-height: 1.4em;
+
+}
+
+#footerProducts{
+    float:left;
+    margin: 1.5em;
+    line-height: 1.4em;
+}
+#footerSupport{
+    float:left;
+    margin: 1.5em;
+    line-height: 1.4em;
+}
+#footerPrograms{
+    float:left;
+    margin: 1.5em;
+    line-height: 1.4em;
+}

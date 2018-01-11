@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+</head>
+<body>
+	<!--THIS IS NOT RECOMMENDED-->
+	<!--This example is a HTML EVENT HANDLER.  NOT RECOMMENDED-->
+	<h3>HTML EVENT HANDLER</h3>
+	<form method="post" action="http://www.example.org/register">
+		<label for="username"> Create a username:</label>
+		<input type="text" id="username" onblur="checkUsername()" />
+		<div id="feedback"></div>
+
+		<label for="password">Crate a password:</label>
+		<input type="password" id="password"/>
+
+		<input type="submit" value="Sign up!"/>
+	</form>
+	
+
+	<h3> TRADITION DOM EVENT HANDLER</h3>
+	<!--TRADITIONAL  DOM EVENT HANDLERS-->
+	<form method="post" action="http://www.example.org/register">
+		<label for="username"> Create a username:</label>
+		<input type="text" id="username2"  />
+		<div id="feedback2"></div>
+
+		<label for="password">Crate a password:</label>
+		<input type="password" id="password2"/>
+
+		<input type="submit" value="Sign up!"/>
+	</form>
+	
+
+
+	<h3> USING EVENT LISTENERS</h3>
+	<!--NEW METHODS FOR EVENTS-->
+	<form method="post" action="http://www.example.org/register">
+		<label for="username"> Create a username:</label>
+		<input type="text" id="username3"  />
+		<div id="feedback3"></div>
+
+		<label for="password">Crate a password:</label>
+		<input type="password" id="password3"/>
+
+		<input type="submit" value="Sign up!"/>
+	</form>
+	<script type="text/javascript" src="js/event-attributes.js"></script>
+
+</body>
+</html>

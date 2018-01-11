@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Delegation</title>
+</head>
+<body>
+	<h1>LIST</h1>
+	<ul>
+		<li><a href="#">Food</a></li>
+		<li><a href="#">laundry</a></li>
+		<li><a href="#">clean</a></li>
+		<li><a href="#">work</a></li>
+	</ul>
+
+	<script>
+		function itemDone(e){
+			targetItem = e.target;
+			parentItem = targetItem.parentNode;
+			grandParent = parentItem.parentNode;
+			grandParent.removeChild(parentItem);
+			//console.log( parentItem);
+			//console.log(grandParent);
+			//parentItem.removeChild(targetItem);
+
+		}
+
+		ulTag = document.querySelector('ul');
+		ulTag.addEventListener('click', function(e){
+			itemDone(e);
+		})
+	</script> 
+</body>
+</html>

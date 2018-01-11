@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.navbar-default{
+	background-color: #000;
+}
+
+.carousel{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -1;
+}
+
+#aboveTheFold{
+	height:100vh;
+}
+
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px 0;
+  /*max-width: 468px;*/
+  width: 100%; 
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  font: bold 8px/10px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+blockquote.twitter-tweet p {
+  font: normal 8px/10px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 10px;
+}
+
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	color: navy;
+}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+.mc-field-group{
+	float: left;
+}

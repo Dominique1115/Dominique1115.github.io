@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reinforcement</title>
+	<style>
+		.title1{
+			color: yellow; 
+			font-style: italic;
+			font-size: 16px;
+		}
+
+		.titleAlt{
+			color:blue;
+			font-style: normal;
+		}
+	</style>
+</head>
+<body>
+	<h2 class="title1">Some Title</h2>
+
+	<h3 class="listTitle">List Title </h3>
+
+	<ul>
+		<li>hairr</li>
+		<li>nails</li>
+		<li>gas</li>
+		<li>play</li>
+	</ul>
+
+	<div id="image1">
+		<img src="adverlion.png" alt="IDK">
+	</div>
+
+	<form>
+	 	<input type="text" name="firstName" value="First Name">
+	 	<input type="password" name="password" value="Last Name">
+	 	<input type="submit">
+	</form>
+
+
+
+<script>
+
+	function changeTitle(e){
+	 	firstHeading.textContent="Many more items";
+	 	console.log(this);
+	 	this.classList.remove('title1');
+	 	this.classList.add('titleAlt');
+
+	}
+
+	function removeItem(e){
+		itemToRemove=e.target;
+		console.log(itemToRemove);
+		uol.removeChild(itemToRemove);
+	}
+
+
+	function addItem(e){
+		li=document.createElement("li");
+		textNode = document.createTextNode("Good Food");
+		li.appendChild(textNode);
+		uol.appendChild(li);
+	}
+
+
+
+	uol=document.querySelector('ul');
+	firstHeading=document.querySelector('h2.title1');
+	theImage = document.getElementsByTagName('img')[0];
+	console.log(theImage);
+	firstHeading.addEventListener('mouseover', changeTitle);
+	uol.addEventListener('mouseover', removeItem);
+	theImage.addEventListener('click', addItem);
+
+	jj = navigator.geolocation.getCurrentPosition(data);
+	console.log(jj);
+
+	
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+    <input type="text" class="mycity" placeholder=" or State">
+  </form>
+<script>
+
+
+const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+
+function checkForMatches(){
+  
+  regexp = new RegExp(this.value, 'gi');
+
+  const newArr = myArray.filter(myArr => ( myArr.match(regexp)));
+
+  mycity.value= newArr;  
+  console.log(newArr);
+
+}
+
+
+const myArray=['Apples', 'Oranges', 'Pineapples', 'salad', 'work', 'hard'];
+
+const inputSearch = document.querySelector('.search');
+const mycity = document.querySelector('.mycity');
+inputSearch.addEventListener('change', checkForMatches);
+//inputSearch.addEventListener('keyup', checkForMatches);
+
+
+
+
+
+
+
+</script>
+  </body>
+</html>

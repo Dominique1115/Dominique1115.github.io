@@ -1,0 +1,26 @@
+.lorem{
+	color: blue;
+	font-style: italic;
+}
+
+.nonLorem{
+	color: green;
+	font-style: normal;
+}
+
+#div1{
+	background-color: grey;
+
+}
+
+#div2{
+	background-color: yellow;
+}
+
+#div3{
+	background-color: orange;
+}
+
+.increaseSize{
+	font-size: 28px;
+}

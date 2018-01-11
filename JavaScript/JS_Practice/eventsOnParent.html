@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Events</title>
+	<style>
+		*{margin:0; padding:0;}
+		#div1{ width: 500px; height:500px; background-color: yellow }
+		#div2{width: 250px; height: 250px; background-color: grey; color: #fff; }
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<div id="div2">
+			<p>hello world</p>
+		</div>
+	</div>
+
+
+<script>
+
+	function whatTarget(e){
+		console.log("div1 entered");
+		console.log(e.target);
+	}
+	const div1 = document.getElementById('div1');
+	div1.addEventListener('click', whatTarget);
+</script>
+</body>
+</html>
